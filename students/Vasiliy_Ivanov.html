@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенты - Сайт группы</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="../js/login-popur.js"></script>
+</head>
+
+<body class="page">
+    <header class="header student-header">
+        <a href="../index.html">
+            <img class="site-logo" src="../img/logo.svg" alt="Логотип">
+        </a>
+        <ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link active-link" href="../pages/students.html">Студенты</a></li>
+            <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+            <li><a class="menu-link" href="../pages/contacts.html">Контакты</a></li>
+        </ul>
+        <button class="login-button">Войти</button>
+        <div class="login-popup">
+            <span class="login-close">&times;</span>
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="#" method="GET">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <div id="page-modal"></div>
+    <main class="main main-students">
+
+    </main>
+    <footer class="footer">
+        <p class="copywrite">2022 &copy; <a class="inoop-link" href="https://innopolis.com/">Иннополис</a></p>
+    </footer>
+</body>
+
+</html>
